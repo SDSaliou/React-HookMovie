@@ -1,0 +1,18 @@
+body {
+  background-color: black; /* Noir */
+  color: #fff; /* Blanc pour le texte */
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+.card {
+  transition: transform 0.2s;
+}
+.card:hover {
+  transform: scale(1.05);
+}
